@@ -1,0 +1,42 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+
+<!-- Beginning by setting the simulation type -->
+
+<Segregation 
+	Title    = "GameOfLife"
+	CellType = "LifeCell"
+	PatchType= "Patch"
+	author   = "Team 15"
+	xmax     = "10"
+	ymax     = "10"
+	Generate = "Random or Ordered"
+	Parameters = ".8"
+	>
+	
+    <!-- Set my grid and its initial state -->
+
+	<Gridc>0,0,0,0,0,0,0,0,0,0</Gridc>
+	<Gridc>0,0,0,0,0,0,0,0,0,0</Gridc>
+	<Gridc>0,1,1,1,0,0,0,0,0,0</Gridc>
+	<Gridc>0,0,0,0,0,0,0,0,0,0</Gridc>
+	<Gridc>0,0,0,0,0,0,0,0,0,0</Gridc>
+	<Gridc>0,0,0,0,0,0,0,1,0,0</Gridc>
+	<Gridc>0,1,1,1,0,0,0,1,0,0</Gridc>
+	<Gridc>0,1,1,1,0,0,0,1,0,0</Gridc>
+	<Gridc>0,1,1,1,0,0,0,0,0,0</Gridc>
+	<Gridc>0,0,0,0,0,0,0,0,0,0</Gridc>
+
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>
+	<Grid>1,1,1,1,0,0,1,1,1,1</Grid>	
+
+	
+<!-- Closing my segregation -->
+</Segregation>  
